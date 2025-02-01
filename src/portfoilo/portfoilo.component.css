@@ -1,0 +1,78 @@
+section {
+  margin-top: 6.75rem;
+}
+.row {
+  padding-block: 2rem !important;
+}
+.main-portfoilo {
+  background-color: #fff !important;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h2.portText {
+  font-weight: 700;
+  line-height: 3rem;
+  font-size: 2.5rem;
+  color:rgb(44, 62, 80);
+  text-align: center;
+  padding-top: 1rem;
+}
+div.icon-rule {
+  /* margin-block: 1.875rem; */
+  color: rgb(44, 62, 80);
+}
+div.icon-rule::after {
+  content: "";
+  position: absolute;
+  right: 55%;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 3px;
+  background-color: rgb(44, 62, 80);
+  width: 5%;
+}
+div.icon-rule::before {
+  content: "";
+  position: absolute;
+  left:55%;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 3px;
+  background-color: rgb(44, 62, 80);
+  width: 5%;
+}
+.parentImage {
+  cursor: pointer;
+}
+.layer {
+  background: #1EBC9C;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: ease-in-out opacity 0.3s;
+}
+.parentImage:hover .layer {
+  opacity: 0.8;
+}
+i.fa-solid.fa-plus {
+  font-weight: 900;
+  font-size: 6rem;
+  line-height: 6rem;
+}
+div.modal-dialog{
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  height: 92.5vh !important;
+}
+.modal {
+  overflow-y: hidden !important;
+}
+

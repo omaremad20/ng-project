@@ -1,0 +1,87 @@
+section {
+  margin-top: 6.5rem;
+}
+.contactText , i.fa-solid{
+  color: rgb(44, 62, 80) !important;
+}
+.main {
+  background-color: #FFFFFF;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h2.contactText {
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  padding-top: 1rem;
+}
+div.icon-rule::after {
+  content: "";
+  position: absolute;
+  right: 55%;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 3px;
+  background-color: rgb(44, 62, 80);
+  width: 5%;
+}
+div.icon-rule::before {
+  content: "";
+  position: absolute;
+  left: 55%;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 3px;
+  background-color: rgb(44, 62, 80);
+  width: 5%;
+}
+form {
+  padding-top: 5rem ;
+}
+input {
+  all: unset;
+  border-bottom: rgba(128, 128, 128, 0.503) solid 2px;
+  margin-block: 1rem;
+  color: black;
+  text-transform: none !important;
+  padding-block: 0.75rem;
+  padding-left: 0.5rem;
+  border-radius: 0.5rem;
+}
+.main-form {
+  width: 50%;
+  margin: auto;
+}
+button.btn.btn-success.text-capitalize {
+  background-color: #1ABC9C !important;
+  border-color: #1ABC9C !important;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+.label-text {
+  color: #1ABC9C ;
+  text-transform: capitalize;
+}
+
+.label-text {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.5s ease-in-out;
+}
+
+.label-text.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.label-text.hide {
+  opacity: 0;
+  transform: translateY(-20);
+}
+.btn-message {
+  margin: 0 !important;
+  margin-bottom: 3.75rem !important;
+  margin-top: 2.625rem !important;
+}

@@ -1,0 +1,41 @@
+nav.navbar {
+  background-color: #2C3E50;
+  padding-block: 1.5rem;
+
+}
+nav.navbar.show {
+  padding-block: 1rem;
+}
+li.nav-item a.nav-link  ,
+.container a.navbar-brand {
+  color: #fff !important;
+}
+
+.container a.navbar-brand  {
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 3rem;
+  font-style: normal;
+}
+li.nav-item a.nav-link {
+  line-height: 1.5rem;
+  font-weight: 700;
+  font-size: 1rem;
+  font-style: normal;
+}
+
+.activeLink {
+  background-color: #1ABC9C;
+  border: 1px transparent solid ;
+  border-radius: 10px;
+}
+nav {
+  z-index: 1000;
+  transition: ease-out padding 0.3s;
+}
+.navbar.scrolled {
+  padding-block: 0.5rem !important;
+}
+.bg-success-50 {
+  background-color: #1ABC9C;
+}

@@ -1,0 +1,176 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+  text-transform: uppercase;
+  color: #fff !important;
+  background-color: #1A252F !important;
+}
+.modal-backdrop {
+  background-color: #000  !important;
+  opacity: 0.8 !important;
+}
+/*phones*/
+/* Media Query for small screens(Phones) */
+@media (max-width: 640px) {
+  /*navbar*/
+  .navbar-brand {
+    font-size: 1.5rem !important;
+  }
+  .nav-item {
+    display: flex;
+    align-items: center;
+  }
+  li.nav-item a.nav-link {
+    margin-left: 1rem !important;
+    padding: 0.5rem;
+    margin-block: 0.25rem;
+  }
+  /*about*/
+  div h2.aboutTxt-media {
+    font-size: 1.75rem !important;
+  }
+  section.aboutSection-media {
+    margin-top: 0 !important;
+  }
+  div.main.main-about-media {
+    padding-top: 11.5rem;
+    padding-bottom: 4.5rem;
+  }
+  div.inner p.paragraph-in-media {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 1rem;
+  }
+  div.parentDescripition div.icon-rule.icon-rule-media::after ,
+  div.parentDescripition div.icon-rule.icon-rule-media::before {
+    width: 25%;
+    height: 5px;
+  }
+  div.parentDescripition div.icon-rule.icon-rule-media {
+    margin-block: 0;
+    margin-bottom: 1rem;
+  }
+  /*footer*/
+  footer div.main div.container div.row div div.inner.inner-footer-media {
+    padding-block: 2rem;
+  }
+  /*portfoilo*/
+  section.portfolio div.main-portfoilo div.container div.icon-rule.icon-rule-portfoilo-media::after ,
+  section.portfolio div.main-portfoilo div.container div.icon-rule.icon-rule-portfoilo-media::before{
+    width: 25% !important;
+    height: 5px !important;
+  }
+  section.portfolio div.main-portfoilo div.container div.icon-rule.icon-rule-portfoilo-media {
+    margin-block: 0 !important;
+  }
+  div.container h2.portText {
+    font-size: 1.75rem !important;
+  }
+  /*contact*/
+  .main-form {
+    width: 90% !important;
+  }
+  h2.contactText {
+    font-size: 1.75rem !important;
+  }
+  div.icon-rule.icon-rule-contact::after ,
+  div.icon-rule.icon-rule-contact::before {
+    width: 25% !important;
+    height: 5px !important;
+  }
+  /*home*/
+  div.parentImage.parentImage-home {
+    width: 70% !important;
+  }
+  h2.start-text-home {
+    font-size: 1.75rem !important;
+    text-align: center !important;
+  }
+  div.icon-rule.icon-rule-home-media {
+    margin-block: 0 !important;
+    margin-bottom: 1rem !important;
+  }
+}
+
+
+/*tablets*/
+/* Media Query for large screens */
+@media (min-width: 768px) and (max-width: 1023px) {
+    /*navbar*/
+    .navbar-brand {
+      font-size: 1.5rem !important;
+    }
+    .nav-item {
+      display: flex;
+      align-items: center;
+    }
+    li.nav-item a.nav-link {
+      margin-left: 1rem !important;
+      padding: 0.5rem;
+      margin-block: 0.25rem;
+    }
+  /*home*/
+  section.HomeSection {
+    margin: unset !important;
+  }
+  .main.main-home-media {
+    padding: unset;
+    height: 100vh !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  div.parentImage.parentImage-home {
+    width: 40% !important;
+  }
+  h2.start-text-home {
+    font-size: 1.75rem !important;
+    text-align: center !important;
+  }
+  div.icon-rule.icon-rule-home-media {
+    margin-block: 0 !important;
+    margin-bottom: 1rem !important;
+  }
+  /*about*/
+  div.parentDescripition div.icon-rule.icon-rule-media::after ,
+  div.parentDescripition div.icon-rule.icon-rule-media::before {
+    width: 15% !important;
+    height: 5px !important;
+  }
+  div.main.main-about-media {
+    padding: unset !important;
+    height: 100vh !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  section.aboutSection-media {
+    margin: unset !important;
+  }
+  /*contact*/
+  section.contact-media {
+    margin: unset !important;
+  }
+  .main.contact-main-media {
+    height: 100vh !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  div.icon-rule.icon-rule-contact::after ,
+  div.icon-rule.icon-rule-contact::before {
+    width: 15% !important;
+    height: 5px !important;
+  }
+  /*footer*/
+  footer div.main div.container div.row div div.inner.inner-footer-media {
+    padding-block: 2rem;
+  }
+  /*portfolio*/
+  section.portfolio div.main-portfoilo div.container div.icon-rule.icon-rule-portfoilo-media::after ,
+  section.portfolio div.main-portfoilo div.container div.icon-rule.icon-rule-portfoilo-media::before{
+    width: 25% !important;
+    height: 5px !important;
+  }
+}
+

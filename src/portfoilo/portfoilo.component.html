@@ -1,0 +1,34 @@
+<section class="portfolio">
+  <div class="main-portfoilo">
+    <div class="container">
+      <h2 class="portText  pb-3 mb-0">portfolio component</h2>
+      <div class="w-100 d-flex justify-content-center align-items-center icon-rule icon-rule-portfoilo-media position-relative">
+        <i class="fa-solid fa-star"></i>
+      </div>
+      <div class="row">
+        @for (image of images; track $index) {
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="inner py-4 px-2">
+            <div class="parentImage position-relative">
+              <!--  -->
+              <button type="button" class="btn p-0 border-0" data-bs-toggle="modal" [attr.data-bs-target]="'#' + image.imageCode">
+                <img [src]="image.image" class="rounded rounded-3  w-100 d-block" [title]="image.imageCode" [alt]="image.imageCode">
+                <div class="layer position-absolute rounded rounded-3">
+                  <i class="fa-solid fa-plus"></i>
+                </div>
+              </button>
+              <div class="modal fade" [id]="image.imageCode" tabindex="-1" [attr.aria-labelledby]="image.imageLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                  <img [src]="image.image" class="rounded rounded-3 w-100 d-block" [title]="image.imageCode" [alt]="image.imageCode" />
+                </div>
+              </div>
+              <!--  -->
+            </div>
+          </div>
+        </div>
+        }
+      </div>
+    </div>
+  </div>
+</section>

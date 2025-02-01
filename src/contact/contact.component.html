@@ -1,0 +1,41 @@
+<section class="contact-media">
+  <div class="main contact-main-media">
+    <div class="container">
+      <h2 class="contactText text-center mb-3">contact Section</h2>
+      <div class="w-100 d-flex justify-content-center align-items-center icon-rule icon-rule-contact position-relative">
+        <i class="fa-solid fa-star"></i>
+      </div>
+      <div class="main-form">
+      <form action="" class="">
+        <div class="row">
+          <div class="col-12">
+            <div class="inner ">
+              <label  #labelName class="label-text">userName : </label>
+              <input type="text"  (input)="showLabelName($event)" class="w-100 shadow" placeholder="userName" autocomplete="off"/>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="inner">
+              <label #labelAge class="label-text">UserAge : </label>
+              <input type="number" (input)="showLabelAge($event)" class="w-100 shadow" placeholder="userAge" autocomplete="off" min="18"/>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="inner">
+              <label #labelEmail class="label-text">userEmail : </label>
+              <input type="email" (input)="showLabelEmail($event)" class="w-100 shadow" placeholder="userEmail" autocomplete="off"/>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="inner">
+              <label #labelPassword class="label-text">userPassword : </label>
+              <input type="password" (input)="showLabelPassword($event)" class="w-100 shadow" placeholder="userPassword" autocomplete="off"/>
+            </div>
+          </div>
+        </div>
+        <button class="btn btn-success text-capitalize btn-message">send Message</button>
+      </form>
+    </div>
+    </div>
+  </div>
+</section>
